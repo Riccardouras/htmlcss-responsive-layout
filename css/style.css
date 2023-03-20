@@ -16,8 +16,15 @@ header{
 .space-around{
     justify-content: space-around;
 }
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
 #invert{
     filter: invert(1);
+    padding: 1rem;
 }
 ul{
     list-style: none;
@@ -53,8 +60,49 @@ li a{
     height: 17.31rem;
 }
 .phone-container{
-    width: 46.875rem;
+    width: 45.4rem;
 }
 .box{
     width: 22.6875rem;
+    text-align: center;
+}
+.box i{
+    font-size: 3rem ;
+    color: #0084FD;
+}
+.bg-violet{
+    background-color: #9792E4;
+}
+.bg-white{background-color: white;}
+.container-two{
+    margin: 0 auto;
+}
+.calc{
+    width: calc(100% / 2);
+}
+.calc img{
+    height: 380px;
+    margin-top: 137px;
+    margin-left: 438px;
+}
+.box2{
+    width: 408px;
+    height: 554px;
+}
+.bg-white{
+    padding: 74px;
+    margin-top: 309px;
+}
+.bg-white img{
+    height: 250px;
+    border-radius: 20px;
+}
+#arrow{
+    background-color: #9792E4;
+    padding: 9px;
+    text-align: center;
+    width: 34px;
+    font-size: 1rem;
+    border-radius: 100px;
+    height: 34px;
 }
