@@ -7,6 +7,9 @@ header{
     display: fixed;
     background-color: #0084FD;
 }
+.wrap{
+    flex-wrap: wrap;
+}
 .flex{
     display: flex;
 }
@@ -37,4 +40,21 @@ li a{
     padding: 0.4rem;
     color: black;
     border-radius: 20px;
+}
+.bg-blue{
+    background-color: #B5DDFF;
+    border-radius: 20px;
+}
+.container{
+    width: 71.3125rem;
+    margin: 0 auto;
+}
+.phone-img-size img{
+    height: 17.31rem;
+}
+.phone-container{
+    width: 46.875rem;
+}
+.box{
+    width: 22.6875rem;
 }
