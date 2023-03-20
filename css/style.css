@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+header{
+    display: fixed;
+    background-color: #0084FD;
+}
 .flex{
     display: flex;
 }
@@ -11,4 +15,26 @@
 }
 #invert{
     filter: invert(1);
+}
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.inline{
+    margin: 0.5rem;
+}
+.inline li{
+    margin: 1rem;
+    display: inline;
+}
+.inline a{
+    color: white;
+}
+.inline button{
+    background-color: white;
+    padding: 0.4rem;
+    color: black;
+    border-radius: 20px;
 }
