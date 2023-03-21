@@ -63,15 +63,16 @@ li a{
     width: 45.4rem;
 }
 .box{
-    width: 22.6875rem;
+    width: 22rem;
     text-align: center;
 }
 .box i{
-    font-size: 3rem ;
+    font-size: 4rem;
     color: #0084FD;
 }
 .bg-violet{
     background-color: #9792E4;
+    object-fit: cover;
 }
 .bg-white{background-color: white;}
 .container-two{
@@ -99,10 +100,27 @@ li a{
 }
 #arrow{
     background-color: #9792E4;
-    padding: 9px;
+    padding: 1px;
     text-align: center;
-    width: 34px;
-    font-size: 1rem;
+    width: 40px;
+    font-size: 1.5rem;
     border-radius: 100px;
-    height: 34px;
+    height: 40px;
+}
+.text-center{
+    text-align: center;
+}
+.rounded-img img{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover
+}
+.box3{
+    padding: 1rem;
+    width: calc(100% / 3 - 1rem);
+    background-color: white;
+}
+.gap{
+    gap: 1rem;
 }
