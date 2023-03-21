@@ -53,7 +53,7 @@ li a{
     border-radius: 20px;
 }
 .container{
-    width: 71.3125rem;
+    width: 75.3125rem;
     margin: 0 auto;
 }
 .phone-img-size img{
@@ -123,4 +123,7 @@ li a{
 }
 .gap{
     gap: 1rem;
+}
+.bg-black{
+    background-color: #333333;
 }
