@@ -426,5 +426,62 @@ li a{
         padding: 0;
     }
     }
-
+@media screen and (min-width:481px) and (max-width:1200px){
+    body{
+        width: 100vw;
+    }
+    header{
+        width: 100vw;
+    }
+    .hamburger i{
+        color: white;
+        font-size: 20px;
+        top: 3%;
+        right: 7%;
+    }
+    .show{
+        display: none;
+    }
+    .hide{
+        display: flex;
+        align-items: center;
+    }
+    .phone-container{
+        display: block;
+        max-width: 407px;
+    }
+    .container-two{
+        display: block;
+        padding: 1%;
+    }
+    .calc{
+        display: block;
+        width: 100%;
+    }
+    .calc img{
+        margin: 20px 190px;
+    }
+    .formatting{
+        margin: 44px auto;
+        width: 100%;
+    }
+    .bg-white{
+        margin: 0 auto;
+    }
+    .mid-pad{
+        padding: 2%;
+    }
+    .box3{
+        width: calc(100% / 2 - 2rem);
+    }
+    .last{
+        margin-bottom: 0;
+    }
+    .mini-pad{
+        padding: 3%;
+    }
+    .pad{
+        padding: 0;
+    }
+}
     
